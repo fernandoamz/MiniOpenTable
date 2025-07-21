@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		500CB0C02E2EE1D0007D62DE /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 500CB0BF2E2EE1D0007D62DE /* Inject */; };
+		83F0D7B656662A1DB60A6491 /* Pods_MiniOpenTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACF5F2340146D7CA9662D2D /* Pods_MiniOpenTable.framework */; };
+		A25C3D717CCE319EC0CA98B7 /* Pods_MiniOpenTable_MiniOpenTableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65722235DCDF5D55C59B6E7E /* Pods_MiniOpenTable_MiniOpenTableUITests.framework */; };
+		B8E89053DB4AE5FBEAA4524C /* Pods_MiniOpenTableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4019470E41554CA70FFA8B7B /* Pods_MiniOpenTableTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		50A53C2D2E26E9FA00B48179 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,12 +31,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B8D33A3629D99F6E57AFE9 /* Pods-MiniOpenTable-MiniOpenTableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOpenTable-MiniOpenTableUITests.release.xcconfig"; path = "Target Support Files/Pods-MiniOpenTable-MiniOpenTableUITests/Pods-MiniOpenTable-MiniOpenTableUITests.release.xcconfig"; sourceTree = "<group>"; };
+		00BB51CAA452D24F717B8C3E /* Pods-MiniOpenTableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOpenTableTests.debug.xcconfig"; path = "Target Support Files/Pods-MiniOpenTableTests/Pods-MiniOpenTableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		046B5A956900035F34FD0925 /* Pods-MiniOpenTable-MiniOpenTableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOpenTable-MiniOpenTableUITests.debug.xcconfig"; path = "Target Support Files/Pods-MiniOpenTable-MiniOpenTableUITests/Pods-MiniOpenTable-MiniOpenTableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A8F54318021BC3470B873B8 /* Pods-MiniOpenTableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOpenTableTests.release.xcconfig"; path = "Target Support Files/Pods-MiniOpenTableTests/Pods-MiniOpenTableTests.release.xcconfig"; sourceTree = "<group>"; };
+		4019470E41554CA70FFA8B7B /* Pods_MiniOpenTableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniOpenTableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A53C1C2E26E9F600B48179 /* MiniOpenTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniOpenTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A53C2C2E26E9FA00B48179 /* MiniOpenTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniOpenTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A53C362E26E9FA00B48179 /* MiniOpenTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniOpenTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACF5F2340146D7CA9662D2D /* Pods_MiniOpenTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniOpenTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65722235DCDF5D55C59B6E7E /* Pods_MiniOpenTable_MiniOpenTableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniOpenTable_MiniOpenTableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D31E269DD58ECBF13A2A5C4 /* Pods-MiniOpenTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOpenTable.release.xcconfig"; path = "Target Support Files/Pods-MiniOpenTable/Pods-MiniOpenTable.release.xcconfig"; sourceTree = "<group>"; };
+		7CFA4BAA4DDCD0E5478C1500 /* Pods-MiniOpenTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOpenTable.debug.xcconfig"; path = "Target Support Files/Pods-MiniOpenTable/Pods-MiniOpenTable.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		507F5F8A2E2EC6660012F8AB /* Exceptions for "MiniOpenTable" folder in "MiniOpenTableTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 50A53C2B2E26E9FA00B48179 /* MiniOpenTableTests */;
+		};
+		507F5F8B2E2EC6660012F8AB /* Exceptions for "MiniOpenTable" folder in "MiniOpenTableUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 50A53C352E26E9FA00B48179 /* MiniOpenTableUITests */;
+		};
 		50A53C7A2E27026700B48179 /* Exceptions for "MiniOpenTable" folder in "MiniOpenTable" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -44,6 +74,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				50A53C7A2E27026700B48179 /* Exceptions for "MiniOpenTable" folder in "MiniOpenTable" target */,
+				507F5F8A2E2EC6660012F8AB /* Exceptions for "MiniOpenTable" folder in "MiniOpenTableTests" target */,
+				507F5F8B2E2EC6660012F8AB /* Exceptions for "MiniOpenTable" folder in "MiniOpenTableUITests" target */,
 			);
 			path = MiniOpenTable;
 			sourceTree = "<group>";
@@ -65,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F0D7B656662A1DB60A6491 /* Pods_MiniOpenTable.framework in Frameworks */,
+				500CB0C02E2EE1D0007D62DE /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E89053DB4AE5FBEAA4524C /* Pods_MiniOpenTableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25C3D717CCE319EC0CA98B7 /* Pods_MiniOpenTable_MiniOpenTableUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +128,8 @@
 				50A53C2F2E26E9FA00B48179 /* MiniOpenTableTests */,
 				50A53C392E26E9FA00B48179 /* MiniOpenTableUITests */,
 				50A53C1D2E26E9F600B48179 /* Products */,
+				BAD863850391EFF6E08B36A8 /* Pods */,
+				78C00E9745A243F693BA139A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +143,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		78C00E9745A243F693BA139A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF5F2340146D7CA9662D2D /* Pods_MiniOpenTable.framework */,
+				65722235DCDF5D55C59B6E7E /* Pods_MiniOpenTable_MiniOpenTableUITests.framework */,
+				4019470E41554CA70FFA8B7B /* Pods_MiniOpenTableTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAD863850391EFF6E08B36A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA4BAA4DDCD0E5478C1500 /* Pods-MiniOpenTable.debug.xcconfig */,
+				6D31E269DD58ECBF13A2A5C4 /* Pods-MiniOpenTable.release.xcconfig */,
+				046B5A956900035F34FD0925 /* Pods-MiniOpenTable-MiniOpenTableUITests.debug.xcconfig */,
+				00B8D33A3629D99F6E57AFE9 /* Pods-MiniOpenTable-MiniOpenTableUITests.release.xcconfig */,
+				00BB51CAA452D24F717B8C3E /* Pods-MiniOpenTableTests.debug.xcconfig */,
+				1A8F54318021BC3470B873B8 /* Pods-MiniOpenTableTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50A53C402E26E9FA00B48179 /* Build configuration list for PBXNativeTarget "MiniOpenTable" */;
 			buildPhases = (
+				4301E0E1CD550E0B4115A840 /* [CP] Check Pods Manifest.lock */,
 				50A53C182E26E9F600B48179 /* Sources */,
 				50A53C192E26E9F600B48179 /* Frameworks */,
 				50A53C1A2E26E9F600B48179 /* Resources */,
+				B04542D79CA75F9D38C4C39D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +187,6 @@
 				50A53C1E2E26E9F600B48179 /* MiniOpenTable */,
 			);
 			name = MiniOpenTable;
-			packageProductDependencies = (
-			);
 			productName = MiniOpenTable;
 			productReference = 50A53C1C2E26E9F600B48179 /* MiniOpenTable.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50A53C432E26E9FA00B48179 /* Build configuration list for PBXNativeTarget "MiniOpenTableTests" */;
 			buildPhases = (
+				426C045AB1ABA4CE2AC5FCAD /* [CP] Check Pods Manifest.lock */,
 				50A53C282E26E9FA00B48179 /* Sources */,
 				50A53C292E26E9FA00B48179 /* Frameworks */,
 				50A53C2A2E26E9FA00B48179 /* Resources */,
@@ -147,8 +209,6 @@
 				50A53C2F2E26E9FA00B48179 /* MiniOpenTableTests */,
 			);
 			name = MiniOpenTableTests;
-			packageProductDependencies = (
-			);
 			productName = MiniOpenTableTests;
 			productReference = 50A53C2C2E26E9FA00B48179 /* MiniOpenTableTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50A53C462E26E9FA00B48179 /* Build configuration list for PBXNativeTarget "MiniOpenTableUITests" */;
 			buildPhases = (
+				F9DE6288C62AEE8D73D13EFC /* [CP] Check Pods Manifest.lock */,
 				50A53C322E26E9FA00B48179 /* Sources */,
 				50A53C332E26E9FA00B48179 /* Frameworks */,
 				50A53C342E26E9FA00B48179 /* Resources */,
+				D32AD052BC0BAF995D87FA8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +232,6 @@
 				50A53C392E26E9FA00B48179 /* MiniOpenTableUITests */,
 			);
 			name = MiniOpenTableUITests;
-			packageProductDependencies = (
-			);
 			productName = MiniOpenTableUITests;
 			productReference = 50A53C362E26E9FA00B48179 /* MiniOpenTableUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -208,6 +268,9 @@
 			);
 			mainGroup = 50A53C132E26E9F600B48179;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				500CB0BE2E2EE0AC007D62DE /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 50A53C1D2E26E9F600B48179 /* Products */;
 			projectDirPath = "";
@@ -243,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		426C045AB1ABA4CE2AC5FCAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniOpenTableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4301E0E1CD550E0B4115A840 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniOpenTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04542D79CA75F9D38C4C39D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniOpenTable/Pods-MiniOpenTable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniOpenTable/Pods-MiniOpenTable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniOpenTable/Pods-MiniOpenTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32AD052BC0BAF995D87FA8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniOpenTable-MiniOpenTableUITests/Pods-MiniOpenTable-MiniOpenTableUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniOpenTable-MiniOpenTableUITests/Pods-MiniOpenTable-MiniOpenTableUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniOpenTable-MiniOpenTableUITests/Pods-MiniOpenTable-MiniOpenTableUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DE6288C62AEE8D73D13EFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniOpenTable-MiniOpenTableUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50A53C182E26E9F600B48179 /* Sources */ = {
@@ -339,6 +505,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -395,6 +565,10 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -403,6 +577,7 @@
 		};
 		50A53C412E26E9FA00B48179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CFA4BAA4DDCD0E5478C1500 /* Pods-MiniOpenTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -411,6 +586,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MiniOpenTable/Preview Content\"";
 				DEVELOPMENT_TEAM = DG287DNFG9;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniOpenTable/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -433,6 +609,7 @@
 		};
 		50A53C422E26E9FA00B48179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D31E269DD58ECBF13A2A5C4 /* Pods-MiniOpenTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +618,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MiniOpenTable/Preview Content\"";
 				DEVELOPMENT_TEAM = DG287DNFG9;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniOpenTable/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -463,6 +641,7 @@
 		};
 		50A53C442E26E9FA00B48179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BB51CAA452D24F717B8C3E /* Pods-MiniOpenTableTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +661,7 @@
 		};
 		50A53C452E26E9FA00B48179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8F54318021BC3470B873B8 /* Pods-MiniOpenTableTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +681,7 @@
 		};
 		50A53C472E26E9FA00B48179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046B5A956900035F34FD0925 /* Pods-MiniOpenTable-MiniOpenTableUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -518,6 +699,7 @@
 		};
 		50A53C482E26E9FA00B48179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B8D33A3629D99F6E57AFE9 /* Pods-MiniOpenTable-MiniOpenTableUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -573,6 +755,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		500CB0BE2E2EE0AC007D62DE /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		500CB0BF2E2EE1D0007D62DE /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 500CB0BE2E2EE0AC007D62DE /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 50A53C142E26E9F600B48179 /* Project object */;
 }

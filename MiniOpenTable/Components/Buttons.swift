@@ -107,7 +107,7 @@ struct PrimaryButton: View {
       HStack{
         Text(text)
           .font(.system(size: 17))
-          .padding(.horizontal, 100)
+          .padding(.horizontal,125)
           .padding(.vertical, 15)
           .foregroundColor(.gray)
           .fontWeight(.bold)

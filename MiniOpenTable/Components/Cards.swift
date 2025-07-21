@@ -25,7 +25,7 @@ struct CardView: View {
     VStack(spacing: 10) {
       Image("BusinessDinner")
         .resizable()
-        .frame(width: 350, height: 200)
+        .frame(width: 300, height: 150)
       
       VStack(alignment: .leading, spacing: 2) {
         Text(title)
@@ -55,7 +55,7 @@ struct CardView: View {
       }
       .padding(12)
     }
-    .frame(width: 350, height: .infinity)
+    .frame(width: 300, height: .infinity)
     .background(Color.white)
     .cornerRadius(9)
     .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)

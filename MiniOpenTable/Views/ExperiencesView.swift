@@ -24,16 +24,19 @@ let todayExperiences: [Experience] = [
 ]
 
 struct ExperiencesView: View {
-    var body: some View {
-      VStack {
-        HStack {
-          CapsuleButton(text: "2", systemImageRight: "person") {}
-          
-          CapsuleButton(text: "Mexico City, CDMX", systemImageLeft: "location") {}
-          Spacer()
-        }.padding(.horizontal, 10)
+  var body: some View {
+    VStack {
+      HStack {
+        CapsuleButton(text: "2", systemImageRight: "person") {}
+        
+        CapsuleButton(text: "Mexico City, CDMX", systemImageLeft: "location") {}
         Spacer()
-
+      }.padding(.horizontal, 10)
+      Spacer()
+      
+      ScrollView {
+        
+        
         HStack {
           Text("Destacados")
             .fontWeight(.bold)
@@ -47,7 +50,7 @@ struct ExperiencesView: View {
             .fontWeight(.bold)
             .font(.system(size: 14))
         }
-          .padding(.horizontal, 12)
+        .padding(.horizontal, 12)
         
         ScrollView(.horizontal) {
           HStack {
@@ -83,21 +86,19 @@ struct ExperiencesView: View {
           .padding(.vertical, 15)
         }
         .scrollIndicators(.hidden)
-       // Spacer()
+        // Spacer()
         
         HStack {
           Text("Experiencias de Hoy")
             .fontWeight(.bold)
             .font(.system(size: 20))
-
+          
           Spacer()
         }
         .padding(.horizontal, 20)
         
-        VStack {
-          List(Array(todayExperiences.enumerated()), id: \.element.id) {
-            index, experience in
-            
+        LazyVStack {
+          ForEach(Array(todayExperiences.enumerated()), id: \.element.id) { index, experience in
             HStack {
               VStack(alignment: .leading) {
                 Text(experience.title)
@@ -111,29 +112,45 @@ struct ExperiencesView: View {
                   .font(.caption)
                   .foregroundColor(.gray)
               }
-
+              
               Spacer()
               MiniCard(month: experience.month, day: experience.day)
+                .padding(.top, 15)
             }
-            .padding(.vertical, 10)
+            .overlay(
+              Rectangle()
+                .frame(height: 1)
+                .opacity(0.3)
+                .foregroundColor(.gray),
+              alignment: .top
+            )
+            .padding(.vertical, 8)
+            .padding(.horizontal, 8)
             
             if index == todayExperiences.count - 1 {
               HStack {
                 Spacer()
-                PrimaryButton(text:  "Ver todos", action: {
-                })
+                PrimaryButton(text: "Ver Todas") {}
                 Spacer()
               }
+              .padding(.top, 15)
+              .overlay(
+                Rectangle()
+                  .frame(height: 1)
+                  .opacity(0.3)
+                  .foregroundColor(.gray),
+                alignment: .top
+              )
             }
-            
           }
-          .listStyle(.plain)
         }
+        .padding(.horizontal, 10)
         
       }
       .frame(maxWidth: .infinity, maxHeight: .infinity)
       .background(Color.white)
     }
+  }
 }
 
 #Preview {

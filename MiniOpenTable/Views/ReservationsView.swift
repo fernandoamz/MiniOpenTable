@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import Inject
 
 struct Reservations: Identifiable {
   var id: Int
@@ -254,8 +254,8 @@ struct ReservationsView: View {
         }
         .task {
           await viewModel.loadRestaurants()
-        }
-      }
+        }.enableInjection()
+    }
 }
 
 #Preview {

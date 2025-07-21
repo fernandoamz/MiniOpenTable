@@ -1,0 +1,59 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+.idea/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Accio dependency manager
+Dependencies/
+.accio/
+
+# Xcode specific files
+*.xcuserstate
+*.xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Archives and iOS specific
+*.ipa
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftPM Xcode project
+.swiftpm/xcode
+
+# Misc
+*.DS_Store
+*.log
+*.orig
+*.swp
+*.lock
+*.env
+
+# Firebase Crashlytics
+*.dSYM.zip
+*.dSYM
