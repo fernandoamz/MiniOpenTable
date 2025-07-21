@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "La Parrilla Gourmet",
+    "cuisine": "Mexicana",
+    "rating": 4.7,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1681406994530-3de7406c21a5?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "availableTimes": ["6:00 PM", "7:00 PM", "8:00 PM"]
+  },
+  {
+    "id": 2,
+    "name": "Sushi Zen",
+    "cuisine": "Japonesa",
+    "rating": 4.5,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1668146927669-f2edf6e86f6f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "availableTimes": ["5:30 PM", "6:30 PM", "9:00 PM"]
+  }
+]
+
