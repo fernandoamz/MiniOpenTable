@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Inject
 
 @main
 struct MiniOpenTableApp: App {
@@ -13,7 +14,7 @@ struct MiniOpenTableApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          ContentView().enableInjection()
         }
     }
 }

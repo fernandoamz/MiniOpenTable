@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Inject
 
 struct HomeView: View {
   @State private var selectedIndex = 0
@@ -22,6 +23,7 @@ struct HomeView: View {
           .frame(width: 32, height: 32)
           .foregroundStyle(.secondary)
       }.padding(.bottom, 8)
+        .padding(.horizontal, 10)
 
         HStack(spacing: 24) {
             ForEach(0..<tabs.count, id: \.self) { index in
@@ -56,8 +58,7 @@ struct HomeView: View {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-    }
-
+    }.enableInjection()
   }
 }
 

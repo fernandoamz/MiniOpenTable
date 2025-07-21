@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import Inject
 
 struct ContentView: View {
     var body: some View {
       RestaurantListView()
+        .enableInjection()
     }
 }
 
